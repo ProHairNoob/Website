@@ -1,0 +1,56 @@
+html {
+  margin: 0 auto;
+
+  color: #dadada;
+}
+body {
+  background-color: #141b1e;
+  width: 100%;
+  font-weight: 500;
+  margin: 0 auto;
+}
+ul {
+  list-style-position: inside;
+}
+#features {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+#header {
+  background-color: #141b1e;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: #e57474;
+  margin: auto;
+}
+
+/* visited link */
+a:visited {
+  color: #e57474;
+}
+
+/* mouse over link */
+a:hover {
+  color: #e57474bf;
+}
+
+#logo {
+  margin: 0 auto;
+  width: 128px;
+  height: 128px;
+
+  transition: background-color 0.3 ease;
+}
+#logo:hover {
+  background-color: #b3b9b8;
+  border-radius: 10%;
+}
+#info {
+  text-align: center;
+}
