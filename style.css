@@ -12,13 +12,11 @@ body {
 ul {
   list-style-position: inside;
 }
-iframe {
-  padding-left: 3px;
+.codegena {
   float: left;
-  margin-right: 20px;
   width: auto;
-  height: auto;
 }
+
 a {
   color: #8ccf7e;
   text-decoration: none;
@@ -30,17 +28,27 @@ a:hover {
   transition: ease 0.15s;
 }
 #content {
-  height: 200px;
+  height: 294px;
   width: 300px;
   float: left;
   padding-left: 5px;
   border-radius: 5px;
-}
-#info {
-  float: left;
-  border-radius: 5px;
-  padding-left: 5px;
   margin-left: 10px;
+}
+
+#info {
+  height: 294px;
+  width: 300px;
+  float: left;
+  padding-left: 5px;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+#content,
+#info {
+  background-color: #515554;
+  margin-top: 10px;
 }
 
 #header {
@@ -63,8 +71,7 @@ a:hover {
 #nav {
   text-align: justify;
 }
-.nav-logo {
-}
+
 .nav-barend {
   margin-top: 0;
   font-size: 1.35em;
