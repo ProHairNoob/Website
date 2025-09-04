@@ -4,6 +4,7 @@ html {
   color: #dadada;
 }
 body {
+  min-height:100px;
   background-color: #141b1e;
   font-size: large;
   font-weight: 500;
