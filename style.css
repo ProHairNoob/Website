@@ -1,11 +1,13 @@
 html {
   margin: 0 auto;
-
+  background: linear-gradient(120deg,#141b1e,#67b0e8);
   color: #dadada;
 }
 body {
   min-height:100px;
-  background-color: #141b1e;
+ 
+ /* background-image:url("Assets/unix.jpg");*/
+  /*background-color: #141b1e;*/
   font-size: large;
   font-weight: 500;
   margin: 0 auto;
@@ -33,7 +35,9 @@ a:hover {
   width: 300px;
   float: left;
   padding-left: 5px;
+  border:2px solid;
   border-radius: 5px;
+  border-color:#141b1e;
   margin-left: 10px;
 }
 
@@ -41,6 +45,8 @@ a:hover {
   height: 294px;
   width: 300px;
   float: left;
+  border:2px solid;
+  border-color:#141b1e;
   padding-left: 5px;
   border-radius: 5px;
   margin-left: 10px;
