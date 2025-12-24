@@ -1,12 +1,14 @@
 html {
   margin: 0 auto;
-  background: linear-gradient(120deg,#141b1e,#67b0e8);
-  color: #dadada;
+  background-image: url("Assets/nasa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #adabab;
 }
 body {
-  min-height:100px;
- 
- /* background-image:url("Assets/unix.jpg");*/
+  min-height: 100px;
+
+  /* background-image:url("Assets/unix.jpg");*/
   /*background-color: #141b1e;*/
   font-size: large;
   font-weight: 500;
@@ -17,7 +19,6 @@ ul {
 }
 .codegena {
   float: left;
-  width: auto;
 }
 
 a {
@@ -33,31 +34,15 @@ a:hover {
 #content {
   height: 294px;
   width: 300px;
-  float: left;
-  padding-left: 5px;
-  border:2px solid;
-  border-radius: 5px;
-  border-color:#141b1e;
-  margin-left: 10px;
-}
 
-#info {
-  height: 294px;
-  width: 300px;
-  float: left;
-  border:2px solid;
-  border-color:#141b1e;
   padding-left: 5px;
+  border: 2px solid;
   border-radius: 5px;
+  border-color: #141b1e;
   margin-left: 10px;
 }
 
 #content,
-#info {
-  background-color: #515554;
-  margin-top: 10px;
-}
-
 #header {
   background-color: #141b1e;
   margin: auto;
@@ -78,6 +63,12 @@ a:hover {
 #nav {
   text-align: justify;
 }
+#info {
+  display: flex;
+  justify-content: center;
+}
+#features {
+}
 
 .nav-barend {
   margin-top: 0;
@@ -86,5 +77,5 @@ a:hover {
 .nav {
   background-color: #232a2d;
   margin-top: 5px;
-  height: 64px;
+  height: 78px;
 }
